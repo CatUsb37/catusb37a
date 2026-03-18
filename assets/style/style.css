@@ -85,11 +85,86 @@ footer{
     transition: ease-in-out 0.8s;
     user-select: none;
     width: 500px;
-    height: 100px;
+    height: 200px;
 }
 footer:hover{
     transform: scale(1.02);
     background: linear-gradient(10deg, rgb(243, 82, 82), rgb(239, 132, 132));
 
+}
+.trjimg{
+    width: 509px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.trjimg:hover{
+    transform: scale(1.04);
+}
+.locker{
+    color:rgb(75, 95, 99);
+    background-color: rgb(56, 61, 61);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: monospace, 'Courier New', Courier, Verdana, Georgia;
+    border: 5px solid rgb(202, 235, 236);
+    text-align: left;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 41px;
+    transition: ease-in-out 0.3s;
+    letter-spacing: 3px;
+    user-select: none;
+
+
+}
+.locker:hover{
+    transform: scale(1.05);
+}
+.h1_t{
+    text-align: center;
+}
+.m_all{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.m_rfid{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.m_nrf{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.m_micro{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.m_cc{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+
+.m_all:hover{
+    transform: scale(1.04);
+}
+.m_rfid:hover{
+    transform: scale(1.04);
+}
+.m_nrf:hover{
+    transform: scale(1.04);
+}
+.m_micro:hover{
+    transform: scale(1.04);
+}
+.m_all:hover{
+    transform: scale(1.04);
+}
+.m_cc:hover{
+    transform: scale(1.04);
 }
 /* кінець файлу */ 
