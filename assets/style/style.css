@@ -1,0 +1,391 @@
+/* style.css головний стиль */
+body {
+    background: linear-gradient(90deg, #0f2027, #2c5364) 
+}
+header{
+    color:#f5f5f5;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 2px solid #9b5de5;
+    text-align: center;
+    margin: 13px auto;
+    padding: 11px;
+    height: 130px;
+    width: 700px;
+    border-radius: 40px;
+    transition: ease-in-out 0.5s;
+    letter-spacing: 2px;
+    user-select: none;
+    display: block;
+    box-shadow: 0 10px 30px rgba(155, 93, 229, 0.3);
+}
+header:hover{
+    transform: scale(1.07);
+    box-shadow: 0 15px 45px rgba(155, 93, 229, 0.5);
+}
+.header_trj{
+    color:#f5f5f5;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 2px solid #5de576;
+    text-align: center;
+    margin: 13px auto;
+    padding: 11px;
+    height: 130px;
+    width: 700px;
+    border-radius: 40px;
+    transition: ease-in-out 0.5s;
+    letter-spacing: 2px;
+    user-select: none;
+    display: block;
+    box-shadow: 0 10px 30px rgba(70, 224, 168, 0.3);
+}
+.header_trj:hover{
+    transform: scale(1.07);
+    box-shadow: 0 10px 30px rgba(70, 224, 168, 0.5);
+}
+.header_m5{
+    color:#f5f5f5;
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 2px solid #e5c15d;
+    text-align: center;
+    margin: 13px auto;
+    padding: 11px;
+    height: 130px;
+    width: 700px;
+    border-radius: 40px;
+    transition: ease-in-out 0.5s;
+    letter-spacing: 2px;
+    user-select: none;
+    display: block;
+    box-shadow: 0 10px 30px rgba(224, 149, 70, 0.3);
+}
+.header_m5:hover{
+    transform: scale(1.07);
+    box-shadow: 0 10px 30px rgba(224, 149, 70, 0.5);
+}
+nav{
+    color: #00d2ff;
+    background-color: rgba(15, 32, 39, 0.7);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 1px solid rgba(0, 210, 255, 0.3);
+    text-align: left;
+    margin: 100px;
+    padding: 20px;
+    height: 100px;
+    
+    border-radius: 41px;
+    transition: ease-in-out 0.3s;
+    letter-spacing: 3px;
+    user-select: none;
+    display: block;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+nav:hover{
+    box-shadow: 1px -4px 37px 1px rgba(23, 78, 151, 0.35);
+}
+nav:active{
+    background-color: #06738b;
+}
+
+.button-def{
+    color:#aee254;
+    background:  #0072ff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    transition: ease-in-out 0.3s;
+    user-select: none;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.button-def:hover{
+    transform: scale(1.1);
+    background: #00d2ff;
+    box-shadow: 0 4px 15px rgba(0, 198, 255, 0.4);
+}
+.button-def:active{
+    background: rgb(228, 228, 212);
+
+
+}
+.button-dow{
+    color:#ffffff;
+    background:  linear-gradient(135deg, #9b5de5, #6a11cb);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 4px dashed rgb(93, 210, 190);
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    transition: ease-in-out 0.4s;
+    user-select: none;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+.button-dow:hover{
+    transform: scale(1.1);
+    background-color:  linear-gradient(135deg, #aa76e9, #a360ea);
+    box-shadow: 0 4px 15px rgba(155, 93, 229, 0.9);
+}
+.button-dow:active{
+    background-color:  linear-gradient(135deg, #c19ded, #c097eb);
+    border: 5px dashed rgb(64, 125, 115);
+
+}
+.button-back{
+    color:#ecf0f1;
+    background:  #34495e;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 4px dashed rgb(93, 210, 190);
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 40px;
+    transition: ease-in-out 0.2s;
+    user-select: none;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.button-back:hover{
+    transform: scale(1.5);
+    background:  #56718c;;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.88);
+}
+.button-back:active{
+    background:  rgb(133, 152, 191);
+    border: 5px dashed rgb(64, 125, 115);
+
+}
+.button-footer{
+    gap: 30px;
+    margin-bottom: auto;
+    color:#ffffff;
+    background:  #e94560;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 1px solid rgb(159, 59, 59);
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 40px;
+    transition: ease-in-out 0.1s;
+    user-select: none;
+    text-decoration: none;
+    letter-spacing: 4px;
+    width: auto;
+}
+.button-footer:hover{
+    transform: scale(1.1);
+    background:  rgb(87, 133, 225);
+    box-shadow: 0 4px 15px rgba(233, 69, 96, 0.4);
+}
+.button-footer:active{
+    background:  rgb(133, 152, 191);
+    border: 5px solid rgb(159, 59, 59);
+
+}
+.h3h{
+    text-align: center;
+    user-select: none;
+}
+img{
+    width: 50px;
+    height: auto;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color:#95a5a6;
+    background: linear-gradient(90deg, #16213e, #0f3460);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 1px solid #1f4068;
+    text-align: left;
+    margin: 20px;
+    padding: 22px;
+    border-radius: 3px 15px;
+    transition: ease-in-out 0.8s;
+    user-select: none;
+    height: 300px;
+    width: 500px;
+    
+    
+}
+footer:hover{
+    background: linear-gradient(90deg, #2a3a66, #1e406a);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5);
+
+}
+.footer_text{
+    display: flex;
+    align-items: center; /* Центрує іконку і текст по вертикалі */
+    gap: 10px;
+
+}
+.trjimg{
+    width: 509px;
+    border-radius: 20px;
+    transition: ease-in-out 0.3s;
+}
+.trjimg:hover{
+    transform: scale(1.04);
+    box-shadow: 0 8px 25px rgba(0, 210, 255, 0.3);
+}
+.box{
+    color:#e0e0e0;
+    background-color: #1a1a2e;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 5px solid rgb(202, 235, 236);
+    text-align: left;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 41px;
+    transition: ease-in-out 0.3s;
+    letter-spacing: 3px;
+    user-select: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+
+
+}
+.box:hover{
+    box-shadow: 0 0 25px rgba(0, 255, 136, 0.4);
+}
+.ai_text{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color:#e0e0e0;
+    background-color: #1a1a2e;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Poppins, 'Roboto', Montserrat, Verdana, Georgia;
+    border: 2px solid rgb(202, 235, 236);
+    text-align: left;
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 1400px;
+    border-radius: 41px;
+    transition: ease-in-out 0.3s;
+    letter-spacing: 3px;
+    user-select: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+
+}
+.ai_text:hover{
+    box-shadow: 0 0 25px rgba(255, 0, 255, 0.4);
+}
+.ai_text p {
+    max-width: 100px;
+    margin: 0;
+}
+.box-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    text-shadow: 3px 4px 7px rgba(0,0,0,1);
+}
+.ai_text p, .box-about > div {
+    width: 20%; 
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-about div:first-child {
+    justify-content: flex-start;
+    padding-left: 10px;
+    gap: 15px;
+}
+.h1_t{
+    text-align: center;
+}
+.m_all{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.m_rfid{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.m_nrf{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.m_micro{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+.m_cc{
+    width: 300px;
+    border-radius: 20px;
+    transition: ease-in 0.3s;
+}
+
+.m_all:hover, .m_rfid:hover, .m_nrf:hover, .m_micro:hover, .m_cc:hover {
+    transform: scale(1.04);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+}
+.ai_text1{
+    text-align: center;
+    color:#ffffff;
+}
+.img_gpt{
+    background-color:#673a5c;
+    border: 2px solid rgb(0, 128, 255);
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+    width: 52px;
+}
+.img_gpt:hover{
+    transform:rotate(360deg);
+    background-color:#de72c5;
+}
+.img_gpt:active{
+    background-color:#ecb4de;
+
+}
+
+
+/* кінець файлу author: Leonid */ 
